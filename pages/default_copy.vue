@@ -34,9 +34,8 @@
         </v-carousel>
         <v-container fluid>
           <v-row>
-            <v-col cols="12" >
-              <v-row
-              >
+            <v-col cols="12">
+              <v-row>
                 <v-card
                   v-for="n in 3"
                   :key="n"
@@ -44,13 +43,13 @@
                   outlined
                   tile
                 >
-                  <div v-if="n==1" >
+                  <div v-if="n==1">
                     <Card1 />
                   </div>
-                  <div v-if="n==2" >
+                  <div v-if="n==2">
                     <Card2 />
                   </div>
-                  <div v-if="n==3" >
+                  <div v-if="n==3">
                     <Card3 />
                   </div>
                 </v-card>
@@ -59,7 +58,6 @@
           </v-row>
         </v-container>
         <Footer />
-
       </template>
     </v-main>
   </v-app>
@@ -71,7 +69,7 @@ import Card1 from '~/pages/card1'
 import Card2 from '~/pages/card2'
 import Card3 from '~/pages/card3'
 
-import Footer from '~/pages/Footer'
+import Footer from '~/pages/footer'
 
 export default {
   components: { Card3, Card2, Footer, Card1 },
@@ -79,19 +77,19 @@ export default {
     return {
       title: 'Придворов Алексей Павлович',
       colors: ['indigo',
-               'warning',
-               'pink darken-2',
-               'red lighten-1',
-               'deep-purple accent-4',
-               'green darken-2',],
+        'warning',
+        'pink darken-2',
+        'red lighten-1',
+        'deep-purple accent-4',
+        'green darken-2'],
       slides: ['Установка и сопровождение 1С',
-                'БД MSSQL,postgreSQL, сервер apache',
-                'Кластер серверов 1С',
-                'платформы 7.7 8.1 8.2 8.3',
-                'Отчеты, обмены, расширения конфигураций ',
-                'Изменения только по техническим заданиям ',],
+        'БД MSSQL,postgreSQL, сервер apache',
+        'Кластер серверов 1С',
+        'платформы 7.7 8.1 8.2 8.3',
+        'Отчеты, обмены, расширения конфигураций ',
+        'Изменения только по техническим заданиям ']
     }
-  },
   }
+}
 
 </script>

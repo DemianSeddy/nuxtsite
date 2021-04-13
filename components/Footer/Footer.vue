@@ -11,23 +11,18 @@
       <v-card-title class="teal">
         <strong class="subheading">Найдете меня в социальных сетях</strong>
 
-        <v-spacer></v-spacer>
+        <v-spacer />
 
         <v-btn
-          v-for="icon,InLink in icons,linksInLink"
+          v-for="icon in icons"
           :key="icon"
           class="mx-4"
           dark
           icon
         >
-          <router-link to="InLink">
-            <v-icon size="24px">
-              {{icon}}
-            </v-icon>
-          </router-link>
-
-
-
+          <v-icon size="24px">
+            {{ icon }}
+          </v-icon>
         </v-btn>
       </v-card-title>
 
@@ -38,7 +33,6 @@
   </v-footer>
 </template>
 
-
 <script>
 export default {
   data: () => ({
@@ -46,16 +40,14 @@ export default {
       'mdi-vk',
       'mdi-mail',
       'mdi-linkedin',
-      'mdi-instagram',
+      'mdi-instagram'
     ],
     linksInLink: [
       'https://vk.com/id16353126',
       'mdi-mail',
       'mdi-linkedin',
-      'mdi-instagram',
-    ],
-  }),
+      'mdi-instagram'
+    ]
+  })
 }
 </script>
-
-

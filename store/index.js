@@ -25,13 +25,13 @@ export const mutations = {
 export const actions = {}
 
 export const getters = {
-  loading (state) {
+  getLoading (state) {
     return state.loading
   },
-  error (state) {
+  getError (state) {
     return state.error
   },
-  message (state) {
+  getMessage (state) {
     return state.message
   }
 

@@ -2,7 +2,7 @@
   <v-row justify="center" align="center">
     <v-col cols="12">
       <div class="text-center">
-        <h1>Логин</h1>
+        <h1>Услуги подбор</h1>
       </div>
     </v-col>
   </v-row>
@@ -10,6 +10,10 @@
 
 <script>
 export default {
-  name: 'Login'
+  name: 'SearchProduct'
 }
 </script>
+
+<style scoped>
+
+</style>
