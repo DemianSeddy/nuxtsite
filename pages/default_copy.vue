@@ -65,9 +65,9 @@
 
 <script>
 
-import Card1 from '~/pages/card1'
-import Card2 from '~/pages/card2'
-import Card3 from '~/pages/card3'
+import Card1 from '~/components/cards/card1'
+import Card2 from '~/components/cards/card2'
+import Card3 from '~/components/cards/card3'
 
 import Footer from '~/pages/footer'
 

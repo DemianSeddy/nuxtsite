@@ -9,19 +9,18 @@
       tile
     >
       <v-card-title class="teal">
-        <strong class="subheading">Найдете меня в социальных сетях</strong>
-
+        <strong class="subheading">Найдете меня в социальных сетях или напишите письмо для регистрации</strong>
         <v-spacer />
-
         <v-btn
           v-for="icon in icons"
-          :key="icon"
+          :key="icon.key"
+          :href="icon.link"
           class="mx-4"
           dark
           icon
         >
-          <v-icon size="24px">
-            {{ icon }}
+          <v-icon>
+            {{ icon.key }}
           </v-icon>
         </v-btn>
       </v-card-title>
@@ -36,17 +35,9 @@
 <script>
 export default {
   data: () => ({
-    icons: [
-      'mdi-vk',
-      'mdi-mail',
-      'mdi-linkedin',
-      'mdi-instagram'
-    ],
-    linksInLink: [
-      'https://vk.com/id16353126',
-      'mdi-mail',
-      'mdi-linkedin',
-      'mdi-instagram'
+    icons: [{ key: 'mdi-vk', link: 'https://vk.com/id16353126' },
+      { key: 'mdi-mail', link: 'mailto:pridvorov@gmail.com' }
+
     ]
   })
 }
