@@ -2,6 +2,12 @@
   <v-footer
     dark
     padless
+    max-height
+    absolute
+    inset
+    app
+    width="auto"
+    class="py-12"
   >
     <v-card
       class="flex"

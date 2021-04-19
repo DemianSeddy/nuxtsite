@@ -1,5 +1,6 @@
 <template>
   <v-carousel
+    max-height
     cycle
     height="200"
     hide-delimiter-background
@@ -12,6 +13,7 @@
       <v-sheet
         :color="colors[i]"
         height="100%"
+        width="auto"
       >
         <v-row
           class="fill-height"

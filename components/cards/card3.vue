@@ -6,11 +6,12 @@
     <v-card-text>
       <div>Написание кода</div>
       <p class="display-1 text--primary">
-          1C, PHP, Java, Delphi
+        1C, PHP, Java, Delphi
       </p>
       <p>Техническое задание</p>
       <div class="text--primary">
-          Вы должны четко представлять что хотите
+        Вы должны четко представлять, что хотите <br>
+        хотя бы как бухгалтер или исполнитель
       </div>
     </v-card-text>
     <v-card-actions>
@@ -31,10 +32,9 @@
       >
         <v-card-text class="pb-0">
           <p class="display-1 text--primary">
-             Пришлите мне письмом ваши "хотелки"
+            Пришлите мне письмом ваши "хотелки"
           </p>
           Положите перед собой лист чистой бумаги напишите для себя как сделать то ,что вы хотите, но без компьютера
-
         </v-card-text>
         <v-card-actions class="pt-0">
           <v-btn
@@ -54,8 +54,8 @@
 
 export default {
   data: () => ({
-    reveal: false,
-  }),
+    reveal: false
+  })
 }
 </script>
 
@@ -67,4 +67,3 @@ export default {
   width: 100%;
 }
 </style>
-

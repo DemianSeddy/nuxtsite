@@ -4,12 +4,10 @@
       <div class="text-center">
         <h1>Это сайт</h1>
 
-        <Title />
         <SlideAll />
         <Cards />
         <ProgressLoad />
         <Info />
-        <Footer />
       </div>
     </v-col>
   </v-row>

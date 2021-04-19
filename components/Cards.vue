@@ -34,7 +34,7 @@ import Card3 from '~/components/Cards/Card3'
 
 export default {
   name: 'Cards',
-  comments: {
+  components: {
     Card1, Card2, Card3
   }
 }

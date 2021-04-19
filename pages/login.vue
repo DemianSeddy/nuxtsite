@@ -4,7 +4,9 @@
       <div class="text-center">
         <Title />
         <h1>Логин</h1>
-        <Footer />
+        <v-footer>
+          <Footer />
+        </v-footer>
       </div>
     </v-col>
   </v-row>
