@@ -2,7 +2,7 @@
   <v-carousel
     max-height
     cycle
-    height="200"
+    height="205"
     hide-delimiter-background
     show-arrows-on-hover
   >
@@ -13,7 +13,7 @@
       <v-sheet
         :color="colors[i]"
         height="100%"
-        width="auto"
+        width="100%"
       >
         <v-row
           class="fill-height"

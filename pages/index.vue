@@ -2,8 +2,6 @@
   <v-row justify="center" align="center">
     <v-col cols="12">
       <div class="text-center">
-        <h1>Это сайт</h1>
-
         <SlideAll />
         <Cards />
         <ProgressLoad />

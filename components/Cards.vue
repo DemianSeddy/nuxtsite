@@ -28,9 +28,9 @@
 
 <script>
 
-import Card1 from '~/components/Cards/Card1'
-import Card2 from '~/components/Cards/Card2'
-import Card3 from '~/components/Cards/Card3'
+import Card1 from './cards/card1'
+import Card2 from './cards/card2'
+import Card3 from './cards/card3'
 
 export default {
   name: 'Cards',
